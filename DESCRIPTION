@@ -7,7 +7,6 @@ Authors@R: c(
       "Peter", "Pham",
       email = "peterpham920@gmail.com",
       role = c("aut", "cre")
-      comment = NULL
     )
   )
 Description: The one and only MATH4753 package.
