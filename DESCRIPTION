@@ -1,12 +1,13 @@
 Package: MATH4753S26PETER
 Type: Package
-Title: MATH4753 functions and scripts
+Title: MATH4753 Functions
 Version: 0.1.0
 Authors@R: c(
     person(
       "Peter", "Pham",
       email = "peterpham920@gmail.com",
       role = c("aut", "cre")
+      comment = NULL
     )
   )
 Description: The one and only MATH4753 package.
