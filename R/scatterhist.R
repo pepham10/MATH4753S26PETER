@@ -8,6 +8,8 @@
 #' @returns A sophisticated plot
 #' @export
 #'
+#' @importFrom graphics layout hist par barplot mtext
+#'
 #' @examples
 #' \dontrun{with(ddt, scatterhist(LENGTH,WEIGHT, xlab="LENGTH"))}
 scatterhist = function(x, y, xlab="", ylab=""){

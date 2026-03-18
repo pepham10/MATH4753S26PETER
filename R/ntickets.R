@@ -7,6 +7,9 @@
 #' @returns A named list containing nd (optimal tickets through discrete binomial), nc (optimal tickets through normal approximation), N, p, and gamma
 #' @export
 #'
+#' @importFrom stats pbinom pnorm optimize
+#' @importFrom graphics abline plot
+#'
 #' @examples
 #' \dontrun{ntickets(N = 400, gamma = 0.02, p = 0.95)}
 ntickets <- function(N, gamma, p) {

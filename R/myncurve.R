@@ -7,6 +7,9 @@
 #' @returns A list containing mu, sigma, and the calculated probability
 #' @export
 #'
+#' @importFrom graphics curve polygon
+#' @importFrom stats dnorm pnorm
+#'
 #' @examples
 #' \dontrun{myncurve(mu = 10, sigma = 5, a = 6)}
 myncurve = function(mu, sigma, a){
